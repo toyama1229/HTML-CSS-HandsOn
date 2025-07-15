@@ -7,24 +7,67 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
-
+    <header>
+      <img class="logo-picture" src="img/logo.png" alt="fill">
+      <div class="menu">
+        <p class="menu-item1"><a href="#profile-title">Profile</a></p>
+        <p class="menu-item2"><a href="#section-title">Articles</a></p>
+      </div>
+    </header>
     <main class="main-content">
       <!-- メインビジュアル -->
-
+      <img class="main-picture" src="img/main_visual.JPG" alt="fill">
       <!-- プロフィール セクション -->
-
+      <div class="profile">
+        <h2><span id="profile-title">Profile</span></h2>
+        <div class="content">
+          <img class="profile-picture" src="img/profile.png" alt="fill">
+          <div class="sentence">
+            <h3 class="name">TARO RARETECH</h3>
+            <p>出身:東京都<br>
+              趣味:アプリ開発,散歩(公園を中心に都内を歩きまわっています)<br>
+              技術:Python, Django, JavaScript, React, AWS, GCP<br>
+              主な仕事: マネジメント, バックエンド開発
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- 記事 セクション -->
-
+      <h2><span id="section-title">Articles</span></h2>
+      <div class="article">
+        <div class="picture">
+          <div class="articles-picture" >
+            <img src="img/article.jpg" alt="fill">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+          </div>
+          <div class="articles-picture" >
+            <img src="img/article.jpg" alt="fill">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+          </div>
+          <div class="articles-picture" >
+            <img src="img/article.jpg" alt="fill">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+          </div>
+          <div class="articles-picture" >
+            <img src="img/article.jpg" alt="fill">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- フッター -->
-
+    <p class="copyright">© 2024 Profile</p>
   </div>
 </body>
 
